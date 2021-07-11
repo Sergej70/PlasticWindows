@@ -1,22 +1,44 @@
 body {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   width: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 h1 {
   color: red;
 }
 
+.logo {
+  color: rgb(97, 99, 97);
+}
+
+li {
+  display: block;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
 .nav {
   display: flex;
-  
 }
 
 .to-nav {
-  margin: 25px;
+  border-radius: 2px;
+  color: rgb(54, 13, 126);
+  margin: 10px;
+  background-color: rgb(176, 201, 201);
 }
 
-.slide {
-  size: 640*640px;
+
+
+slides .slide {
+  height: 500px;
+  width: 500px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin: 35px;
 }
